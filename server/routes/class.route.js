@@ -1,5 +1,5 @@
 import express from "express"
-import { createClass } from "../controllers/class.controllers"
+import { createClass } from "../controllers/class.controllers.js"
 
 const ClassRouter = express.Router()
 
