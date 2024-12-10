@@ -81,9 +81,9 @@ const UserData = async(req,res,next)=>{
  
  }
 
- const ClassData =async ()=>{
+ const ClassData =async (req,res)=>{
 
-    let AllClasses = await Class
+   res.send("hello")
 
  }
-export {registration,login, UserData}
+export {registration,login, UserData,ClassData}
